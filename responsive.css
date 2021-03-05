@@ -1,8 +1,8 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
     .contents {
-        height: 100vh;
-        padding: 80px 0;
+        height: 75vh;
+        padding: 40px 0;
         margin: 0 auto;
     }
 
@@ -17,7 +17,7 @@
     }
 
     .badges {
-        padding: 80px 0;
+        padding: 30px 0;
         margin: 0 auto;
         max-height: 700px;
     }
@@ -26,8 +26,8 @@
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
     .contents {
-        height: 100vh;
-        padding: 80px 0;
+        height: 75vh;
+        padding: 40px 0;
         margin: 0 auto;
     }
 
@@ -42,7 +42,7 @@
     }
 
     .badges {
-        padding: 80px 0;
+        padding: 30px 0;
         margin: 0 auto;
         max-height: 700px;
     }
