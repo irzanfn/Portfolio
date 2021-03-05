@@ -10,6 +10,11 @@
         width: 50%;
         margin-bottom: 50px;
     }
+    
+    .contents-item img {
+        height: 150px;
+        box-shadow: 5px 5px 20px rgba(228, 228, 228, 0.886);
+    }
 
     .badges {
         padding: 80px 0;
@@ -29,6 +34,11 @@
     .contents-item {
         width: 100%;
         margin-bottom: 50px;
+    }
+    
+    .contents-item img {
+        height: 150px;
+        box-shadow: 5px 5px 20px rgba(228, 228, 228, 0.886);
     }
 
     .badges {
