@@ -9,7 +9,8 @@ li {
 }
 
 .header {
-  background-color: #404146;
+  background-image: url(images/slider_1.jpg);
+  background-size: cover;
   color: #fff;
   height: 90px;
 }
@@ -33,6 +34,10 @@ li {
   color: #fff;
 }
 
+.header-right a:hover {
+  color: #f2d00d;
+}
+
 .header-list li {
   float: left;
   padding: 33px 20px;
@@ -43,6 +48,11 @@ li {
 .header-list a {
   text-decoration: none;
   color: #fff;
+}
+
+.header-list a:hover {
+  text-decoration: none;
+  color: #f2d00d;
 }
 
 .copy-container {
@@ -77,10 +87,10 @@ li {
 
 .about {
   font-size: 28px;
-  height: 260px;
-  background-color: rgb(244, 244, 244);
+  height: 350px;
   padding-top: 80px;
   padding-bottom: 80px;
+  background-color: rgb(244, 244, 244);
 }
 
 /*.about h3 {
@@ -89,14 +99,45 @@ li {
 }*/
 
 .about p {
-  padding: 0px 150px;
+  padding: 0px 50px;
   font-size: 20px;
+  text-align: left;
+  display: flex;
+}
+
+.about img {
+  height: 275px;
+  float: left;
+  padding: 0 0 0 30px;
 }
 
 .contents {
-  height: 500px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  height: 50vh;
+  padding: 80px 0;
+  margin: 0 auto;
+  background-color: rgb(244, 244, 244);
+}
+
+.badges {
+  padding: 80px 0;
+  margin: 0 auto;
+  max-height: 350px;
+}
+
+.badges h3 {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.skill {
+  padding: 80px 0;
+  margin: 0 auto;
+  max-height: 500px;
+}
+
+.skill h3 {
+  font-size: 28px;
+  padding-bottom: 20px;
 }
 
 .contents h3 {
@@ -150,9 +191,14 @@ textarea {
 
 .contact-submit {
   width: 500px;
-  background-color: #f7ea8a;
-  color: #4f4f4f;
+  background-color: #4f4f4f;
+  color: #f7f7f7;
   font-size: 22px;
+}
+
+.contact-submit:hover {
+  background-color: #f2d00d;
+  color: #404146;
 }
 
 .contact-form p {
@@ -160,7 +206,7 @@ textarea {
 }
 
 .footer {
-  background-color: #7C7D83;
+  background-color: #404146;
   color: #fff;
   height: 120px;
   padding: 40px;
@@ -186,3 +232,50 @@ textarea {
   text-decoration: none;
   color: #fff;
 }
+
+
+
+/* Container for skill bars */
+.container {
+  width: 90%;
+  /* Full width */
+  background-color: #ddd;
+  /* Grey background */
+  margin: auto;
+}
+
+.skills {
+  text-align: right;
+  /* Right-align text */
+  padding-top: 10px;
+  /* Add top padding */
+  padding-bottom: 10px;
+  /* Add bottom padding */
+  color: white;
+  /* White text color */
+}
+
+.ml {
+  width: 90%;
+  background-color: #4CAF50;
+}
+
+/* Green */
+.php {
+  width: 80%;
+  background-color: #2196F3;
+}
+
+/* Blue */
+.android {
+  width: 70%;
+  background-color: #f44336;
+}
+
+/* Red */
+.css {
+  width: 60%;
+  background-color: #808080;
+}
+
+/* Dark Grey */
